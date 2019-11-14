@@ -4,8 +4,6 @@
 
 ## Create and configure storage accounts
 
-
-
 ## Create and configure a Virtual Machine (VM) for Windows and Linux
 
 ## Automated deployment of Virtual Machine (VMs)
