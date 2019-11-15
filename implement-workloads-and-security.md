@@ -119,7 +119,7 @@ Examples <br>Manage access to storage account<br>Create, update, or delete blob 
     * Manage User access to resources
 
 Built-in role | Description
-------------------------------
+--------------|---------------
 AcrImageSigner | Able to sign azure container registtry container images
 AcrQuarantineReader | Azure Container registry read permission
 AcrQuarantineWriter | Azure container Registry read an write permissions
