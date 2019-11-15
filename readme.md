@@ -8,3 +8,4 @@
 * [Lab Git repo](https://github.com/MicrosoftLearning/AZ-300-MicrosoftAzureArchitectTechnologies)
 * [Azure PowerShell Guide](https://slstudentpublic.blob.core.windows.net/operations/PowerShell%20Guide_Skylines%20Academy_AZ.pdf)
 * [Skills measured extended list](https://www.skylinesacademy.com/blog/2019/8/8/preparing-for-az-300-and-301)
+* [Powershell reference](https://cdn.comparitech.com/wp-content/uploads/2018/08/Comparitech-Powershell-cheatsheet.pdf)
