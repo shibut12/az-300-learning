@@ -124,3 +124,11 @@ AcrImageSigner | Able to sign azure container registtry container images
 AcrQuarantineReader | Azure Container registry read permission
 AcrQuarantineWriter | Azure container Registry read an write permissions
 
+##### Tips and Tricks
+
+Tip | Explanation
+----|------------
+Avoid role assignments at the resource level | Can Make Management more difficult <br>Causes confusion as each resource mut be checked<br>Plase individual resources within RG and assign role at RG level
+Use built-in roles where possible | Large number of built-in roles <br> Likely that one that has specific needed permissions<br>unless you have extensive experience with custom roles, you will probably configure them without necessary precision<br>Understand built-in role options completely before moving on to custom roles<br>Use custom roles sparingly
+Assign access to groups and not users | Add and remove users from groups allows you to quickly assign RBAC permissions<br>Give groups meaningful names related to the RBAC permissions
+Avoid using Microsoft accounts | Assign rights to the Azure AD users rather than Microsoft accounts external to your organization <br> Partner orgs cannot disable outlook.com/Hotmail.com accounts when individual leaves<br>Can disable account within their own Azure AD instance
